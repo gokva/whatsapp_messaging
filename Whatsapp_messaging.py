@@ -57,7 +57,7 @@ def sendMessage(driver, group_name, d, w, g, c):
             "~-------------------------------------~WEATHER~" + w +
             "~-------------------------------------~GOLD PRICE PER GRAM~22K-916@Mustafa: " + g +
             "~-------------------------------------~CURRENCY EXCHANGE RATE~1 Singapore Dollar = " +c+ " Indian rupees" +
-            "~-------------------------------------~SPICE UP~There are 149 secondary schools in Singapore.")
+            "~-------------------------------------~SPICE UP~Have a nice day!")
         sleep(3)
         #typing message into the whatsapp message box
         for line in message.split("~"):
